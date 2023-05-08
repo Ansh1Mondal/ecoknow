@@ -1,0 +1,9 @@
+.Acontainer{
+    display: grid;
+    grid-template-rows: 20% 80%;
+    text-align: center;
+}
+.Abody{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
