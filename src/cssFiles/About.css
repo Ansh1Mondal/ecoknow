@@ -2,41 +2,63 @@
 * {
   text-decoration: none;
 }
-.Pcontainer2 .Pnavbar {
-  position: fixed;
-  height: 3rem;
-  border: 0.2rem solid black;
-  width:100vw;
-}
-.Pbody2 {
+
+.Pcontainer2 {
   background-image: linear-gradient(to top right, #74f6d3, #88bfed, #f5e2d8);
   height: 100vh;
+}
+
+.Pcontainer2 .Pnavbar {
+  position: absolute;
+  display: flex;
+  background: transparent;
+  justify-content: space-around;
+  padding-top: 0.5rem;
+  z-index: 2;
+  left: 10%;
+}
+
+.Pcontainer2 .Plogo {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.Pnavbar .Pnavbtns Button {
+  font-size: 1.2rem;
+  margin: 0.5rem 1.3rem;
+  color: rgb(0, 0, 0);
+  left: 330%;
+}
+
+.Pbody2 {
   width: 100vw;
   display: flex;
   align-items: center;
   justify-items: center;
   justify-content: space-around;
   flex-direction: column;
+  position: relative;
 }
-.Pbglogo{
-    position: fixed;
-    opacity: 30%;
-    z-index: 0;
-    height: 25rem;
+.Pbglogo {
+  position: fixed;
+  opacity: 30%;
+  z-index: 0;
+  height: 25rem;
 }
-.Pheading{
-    font-size: 4rem;
-    font-family: "Bruno Ace SC", cursive;
+.Pheading {
+  font-size: 4rem;
+  font-family: "Bruno Ace SC", cursive;
   color: #003c25;
-  z-index:1;
+  z-index: 1;
   padding-top: 5rem;
+  margin-top: 9rem;
 }
-.Ptext{
-    padding: 5rem;
-    font-size: 1.1rem;
-    text-align: center;
-    z-index:1;
+.Ptext {
+  padding: 5rem;
+  font-size: 1.1rem;
+  text-align: center;
+  z-index: 1;
 }
-.Pline{
-    margin:2rem;
+.Pline {
+  margin: 2rem;
 }

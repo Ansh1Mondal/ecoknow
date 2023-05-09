@@ -2,10 +2,33 @@
   text-decoration: none;
 }
 
-.Rintcontactbox{
-    background-color: aqua;
-    height: 20rem;
-    width: 20rem;
+.Rcontainer {
+  height: 100vh;
+  background-image: linear-gradient(to top right, #74f6d3, #88bfed, #f5e2d8);
+}
+
+.Rnavbar {
+  background: transparent;
+  display: flex;
+  position: sticky;
+  justify-content: space-around;
+  padding-top: 0.5rem;
+}
+
+.Rlogo {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.Rnavbar .Rnavbtns Button {
+  font-size: 1.2rem;
+  margin: 0.5rem 1.3rem;
+  color: rgb(0, 0, 0);
+}
+
+.Rintcontactbox {
+  height: 20rem;
+  width: 20rem;
 }
 
 .cont-boxes {
@@ -29,4 +52,22 @@
   height: 7rem;
   width: 7rem;
   padding: 0.5rem;
+}
+
+.Rcontactusbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.Rcontnamebox,
+.Rcontemailbox,
+.Rcontsubbox,
+.Rcontmsgbox {
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  padding: 0.1rem;
+  margin: 0.2rem;
+  width: 24rem;
 }
