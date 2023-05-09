@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Rcontainer {
+  height: 100vh;
+  background-image: linear-gradient(to top right, #74f6d3, #88bfed, #f5e2d8);
+}
+
+.Rnavbar {
+  background: transparent;
+  display: flex;
+  position: sticky;
+  justify-content: space-around;
+  padding-top: 0.5rem;
+}
+
+.Rlogo {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.Rnavbar .Rnavbtns Button {
+  font-size: 1.2rem;
+  margin: 0.5rem 1.3rem;
+  color: rgb(0, 0, 0);
+}
+
+.RmainBody {
+  position: relative;
+}
+
+.RmainBody .Rheading {
+  font-size: 3rem;
+  margin: 1rem 0rem 2rem 11.5rem;
+}
+
+.RmainBody .Rcards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Rcard1,
+.Rcard2 {
+  background: white;
+  border-radius: 0rem 4rem 0rem 4rem;
+  text-align: center;
+  margin: 0rem 2rem 2rem 1rem;
+}
+
+.Rcard2 .Rnewsbutton,
+.Rcard1 .Rnewsbutton {
+  border-color: #88bfed;
+  color: #88bfed;
+  margin-bottom: 2rem;
+}
+
+.Rcard2 .Rnewsbutton:hover,
+.Rcard1 .Rnewsbutton:hover {
+  border-color: #88bfed;
+}
+
+.Rsecondcard {
+  background-color: white;
+  border-radius: 2rem;
+}
+
+.Rcardimg {
+  margin-top: 1rem;
+}
+
+.Rinthead {
+  padding-top: 1rem;
+  font-weight: 700;
+}
+
+.Rpara1 {
+  padding: 1.5rem 1rem;
+}
+
+.Rpara2 {
+  padding: 1.5rem 1.8rem;
+}
+
+.Rcard3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.Rinternalcard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Rlocationtext {
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  margin-top: 3rem;
+  padding: 0.6rem;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+
+.Rpara {
+  margin-top: 0.5rem;
+  font-weight: 700;
+  font-size: larger;
+}
+
+.Rapidiv {
+  background-color: rgb(14, 152, 145);
+  height: 21rem;
+  width: 14rem;
+  text-align: center;
+  margin: 1rem;
+  border-radius: 2rem;
+}
