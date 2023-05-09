@@ -13,10 +13,10 @@ function App() {
       <Home />
       <About />
       <Waste />
+      <Reduce />
       <Transport />
       <News />
       <Contact />
-      <Reduce />
     </>
   );
 }
