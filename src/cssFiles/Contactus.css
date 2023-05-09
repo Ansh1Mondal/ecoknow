@@ -38,20 +38,9 @@
   height: 2rem;
 }
 
-.send-btn {
-  margin-left: 8rem;
-}
-
-.social {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.social .Logo {
-  margin-top: 2rem;
-  height: 7rem;
-  width: 7rem;
-  padding: 0.5rem;
+.btn {
+  /* margin-left: 8rem; */
+  background: #00fee9a7;
 }
 
 .Rcontactusbox {

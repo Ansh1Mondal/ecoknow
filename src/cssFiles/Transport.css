@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 .Rcontainer {
   height: 100vh;
@@ -51,8 +52,8 @@
 .Rcard2 .Rnewsbutton,
 .Rcard1 .Rnewsbutton {
   border-color: #88bfed;
-  color: #88bfed;
-  margin-bottom: 2rem;
+  color: #000000;
+  margin-bottom: 0.5rem;
 }
 
 .Rcard2 .Rnewsbutton:hover,
@@ -61,16 +62,18 @@
 }
 
 .Rsecondcard {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   border-radius: 2rem;
 }
 
 .Rcardimg {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
+  height: 9rem;
+  width: 9rem;
 }
 
 .Rinthead {
-  padding-top: 1rem;
+  padding: 1rem 1rem 0rem 1rem;
   font-weight: 700;
 }
 

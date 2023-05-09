@@ -2,6 +2,8 @@ import "../cssFiles/Transport.css";
 import { Button } from "@mui/material";
 import { Loader } from "@googlemaps/js-api-loader";
 import Map from "./Map";
+import News from "./News";
+import News2 from "./News2";
 
 function Transport() {
   const loader = new Loader({
@@ -10,7 +12,6 @@ function Transport() {
   });
 
   loader.load().then(() => {
-    // Initialize the map
     <Map />;
   });
 
@@ -59,33 +60,21 @@ function Transport() {
             <div className="Rinternalcard">
               <div className="Rcard1">
                 <img
-                  src={require("../pics/pic1.png")}
+                  src={require("../pics/technology.png")}
                   alt="pic1"
                   className="Rcardimg"
                 />
-                <div className="Rinthead">Daily fuel news:-</div>
-                <div className="Rpara1">
-                  About recommended fuels <br />
-                  available in the market
-                </div>
-                <Button variant="outlined" className="Rnewsbutton">
-                  Explore!
-                </Button>
+                <div className="Rinthead">Daily Tech news:-</div>
+                <News />
               </div>
               <div className="Rcard2">
                 <img
-                  src={require("../pics/pic2.png")}
+                  src={require("../pics/medical-report.png")}
                   alt="pic2"
                   className="Rcardimg"
                 />
-                <div className="Rinthead">Daily car news:-</div>
-                <div className="Rpara2">
-                  Daily news of cars and <br />
-                  upcoming new models.
-                </div>
-                <Button variant="outlined" className="Rnewsbutton">
-                  Explore!
-                </Button>
+                <div className="Rinthead">Daily Health news:-</div>
+                <News2 />
               </div>
             </div>
             <div className="Rloctextarea">

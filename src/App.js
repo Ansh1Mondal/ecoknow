@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import "./App.css";
 import Waste from "../src/jsxFiles/Waste";
 import Home from "../src/jsxFiles/Home";
@@ -14,8 +13,9 @@ function App() {
       <About />
       <Waste />
       <Transport />
+      <News />
       <Contact />
-      <Reduce/>
+      <Reduce />
     </>
   );
 }
