@@ -21,6 +21,7 @@
 .Pcontainer2 .Plogo {
   height: 3.5rem;
   width: 3.5rem;
+  z-index: 2;
 }
 
 .Pnavbar .Pnavbtns Button {
@@ -28,6 +29,7 @@
   margin: 0.5rem 1.3rem;
   color: rgb(0, 0, 0);
   left: 330%;
+  z-index: 1;
 }
 
 .Pbody2 {
@@ -42,14 +44,13 @@
 .Pbglogo {
   position: fixed;
   opacity: 30%;
-  z-index: 0;
   height: 25rem;
 }
 .Pheading {
   font-size: 4rem;
   font-family: "Bruno Ace SC", cursive;
   color: #003c25;
-  z-index: 1;
+  /* z-index: 1; */
   padding-top: 5rem;
   margin-top: 9rem;
 }
@@ -57,7 +58,7 @@
   padding: 5rem;
   font-size: 1.1rem;
   text-align: center;
-  z-index: 1;
+  /* z-index: 1; */
 }
 .Pline {
   margin: 2rem;

@@ -16,9 +16,21 @@ function Mlogin({ isOpen, onClose }) {
           <h1>LOGIN</h1>
         </div>
         <div className="AMinput">
-          <input type="text" placeholder="Product Name" className="Ainputbox" />
           <input type="text" placeholder="Name" className="Ainputbox" />
+          <input
+            type="number"
+            placeholder="Phone Number"
+            className="Ainputbox"
+          />
           <input type="email" placeholder="Email" className="Ainputbox" />
+          <select placeholder="Product category" className="Ainputbox">
+            <option value="" disabled selected>
+              Gender
+            </option>
+            <option value="volvo">Male</option>
+            <option value="saab">Female</option>
+            <option value="saab">Others</option>
+          </select>{" "}
         </div>
         <div className="AMsubmit"></div>
       </div>

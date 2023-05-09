@@ -3,6 +3,7 @@ import "../cssFiles/Waste.css";
 import { Button } from "@mui/material";
 import Msell from "../jsxFiles/Msell";
 import Mbuy from "../jsxFiles/Mbuy";
+import Mrecycle from "./Mrecycle";
 
 export default function Waste() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -23,6 +24,16 @@ export default function Waste() {
 
   const handleCloseModal2 = () => {
     setModalIsOpenn(false);
+  };
+
+  const [modalIsOpenna, setModalIsOpenna] = useState(false);
+
+  const handleOpenModal4 = () => {
+    setModalIsOpenna(true);
+  };
+
+  const handleCloseModal4 = () => {
+    setModalIsOpenna(false);
   };
 
   return (
@@ -98,7 +109,7 @@ export default function Waste() {
             <Mbuy isOpen={modalIsOpenn} onClose={handleCloseModal2} />
           </div>
           <div className="Abuy">
-            <button className="Abuybtn">
+            <button className="Abuybtn" onClick={handleOpenModal4}>
               <img
                 id="Auserpic"
                 alt="userpic"
@@ -106,6 +117,7 @@ export default function Waste() {
               />{" "}
               RECYCLE
             </button>
+            <Mrecycle isOpen={modalIsOpenna} onClose={handleCloseModal4} />
           </div>
         </div>
       </div>
