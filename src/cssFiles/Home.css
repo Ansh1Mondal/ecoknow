@@ -54,7 +54,7 @@ html {
   border-radius: 1rem;
   border: none;
   color: #003c25;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: bolder;
@@ -72,6 +72,12 @@ html {
   font-size: 1.8rem;
   font-family: "Bruno Ace SC", cursive;
   color: #003c25;
+}
+.Ptag p{
+  font-size: 1.8rem;
+  font-family: "Bruno Ace SC", cursive;
+  color: #003c25;
+
 }
 
 .Plogo {

@@ -4,7 +4,7 @@
   z-index: 2;
   background-image: linear-gradient(to top right, #74f6d3, #88bfed, #f5e2d8);
   display: grid;
-  grid-template-rows: 15% 25% 60%;
+  grid-template-rows: 15% 20% 15% 50%;
   text-align: center;
   height: 100vh;
 }
@@ -28,7 +28,11 @@
   color: rgb(0, 0, 0);
 }
 
-.Aheading {
+.Aheading h1{
+  font-size: 2.5rem;
+  font-family: "Bruno Ace SC", cursive;
+}
+.Aheading p{
   font-size: 1.5rem;
   font-family: "Bruno Ace SC", cursive;
 }
@@ -62,4 +66,12 @@
   padding: 2rem;
   height: 40%;
   width: 40%;
+}
+
+.ARbtn Button{
+  border: 2px solid #6db7f4;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  height: 10vh;
+  /* width: 10vw; */
 }

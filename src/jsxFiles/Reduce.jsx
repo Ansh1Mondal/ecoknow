@@ -4,7 +4,7 @@ import { Button } from "@mui/material";
 export default function Reduce() {
   return (
     <>
-      <div className="Wcontainer" id="Waste">
+      <div className="Wcontainer" id="WasteR">
         <div className="Rnavbar">
           <div className="Rnavimg">
             <a href="#">
@@ -23,7 +23,13 @@ export default function Reduce() {
             >
               About Us
             </Button>
-            <Button>Waste Management</Button>
+            <Button
+              onClick={() => {
+                document.getElementById("AWaste").scrollIntoView();
+              }}
+            >
+              Waste Management
+            </Button>
             <Button
               onClick={() => {
                 document.getElementById("RTransport").scrollIntoView();
@@ -46,22 +52,38 @@ export default function Reduce() {
         <div className="Wbody">
           <div className="flip-card">
             <div className="flip-card-inner">
-              <div className="flip-card-front">Tip 1:<br></br>Use rechargable batteries</div>
-              <div className="flip-card-back">Tip 2:<br></br>Buy electronics that can be easily upgraded</div>
+              <div className="flip-card-front">
+                Tip 1:<br></br>Use rechargable batteries
+              </div>
+              <div className="flip-card-back">
+                Tip 2:<br></br>Buy electronics that can be easily upgraded
+              </div>
             </div>
           </div>
           <div className="Wlogos">
             <a href="https://mega.io">
-              <img src={require("../pics/MegaLogo.png")} className="mega" alt="Mega Logo" />
+              <img
+                src={require("../pics/MegaLogo.png")}
+                className="mega"
+                alt="Mega Logo"
+              />
             </a>
             <a href="https://cloud.google.com">
-              <img src={require("../pics/GoogleCloud.png")} className="google" alt="Mega Logo" />
+              <img
+                src={require("../pics/GoogleCloud.png")}
+                className="google"
+                alt="Mega Logo"
+              />
             </a>
           </div>
           <div className="flip-card">
             <div className="flip-card-inner">
-              <div className="flip-card-front">Tip 3:<br></br>Use open-source software</div>
-              <div className="flip-card-back">Tip 4:<br></br>Recycle electronics properly</div>
+              <div className="flip-card-front">
+                Tip 3:<br></br>Use open-source software
+              </div>
+              <div className="flip-card-back">
+                Tip 4:<br></br>Recycle electronics properly
+              </div>
             </div>
           </div>
         </div>
