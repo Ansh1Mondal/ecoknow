@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+*{
+    font-family: 'Bruno Ace SC', cursive;
+}
+.AModalbox{
+    height: 50vh;
+    width: 50vw;
+    background-color: #ffffffd5;
+    margin-left: 25%;
+    margin-top: 12%;
+    border-radius: 50px;
+    text-align: center;
+}
+.AModalbox::backdrop{
+    background-color: bisque;
+}
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}
+.AMbody{
+    display: grid;
+    grid-template-rows: 25% 50% 25%;
+    height: 80%;
+}
+.AMinput{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+    justify-items:center ;
+}
+.Ainputbox{
+    border-radius: 8px;
+    text-align: center;
+    height: 50%;
+    width: 80%;
+    border: 1px solid;
+}
+.Afilebox{
+    margin-left: 30%;
+}
+.ASub{
+    height: 10%;
+    width: 20%;
+    background-color: aliceblue;
+    cursor: pointer;
+    border-radius: 15px;
+}
