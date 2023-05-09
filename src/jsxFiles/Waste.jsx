@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../cssFiles/Waste.css";
+import { Button } from "@mui/material";
 import Msell from "../jsxFiles/Msell";
 import Mbuy from "../jsxFiles/Mbuy";
 
@@ -26,7 +27,42 @@ export default function Waste() {
 
   return (
     <>
-      <div className="Acontainer">
+      <div className="Acontainer" id="AWaste">
+        <div className="Rnavbar">
+          <div className="Rnavimg">
+            <a href="#">
+              <img
+                src={require("../pics/logoEco.png")}
+                alt="ecoknow"
+                className="Rlogo"
+              />
+            </a>
+          </div>
+          <div className="Rnavbtns">
+            <Button
+              onClick={() => {
+                document.getElementById("PAbout").scrollIntoView();
+              }}
+            >
+              About Us
+            </Button>
+            <Button>Waste Management</Button>
+            <Button
+              onClick={() => {
+                document.getElementById("RTransport").scrollIntoView();
+              }}
+            >
+              Transportation
+            </Button>
+            <Button
+              onClick={() => {
+                document.getElementById("RContact").scrollIntoView();
+              }}
+            >
+              Contact us
+            </Button>
+          </div>
+        </div>
         <div className="Aheading">
           <h1>E- Waste Management</h1>
           <p>
