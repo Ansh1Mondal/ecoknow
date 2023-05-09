@@ -1,0 +1,12 @@
+.Acategory{
+    position: absolute;
+    
+    margin-top: 8%;
+}
+.AMinput2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+    justify-items: center;
+  }

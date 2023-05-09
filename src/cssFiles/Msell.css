@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
 * {
-  font-family: "Bruno Ace SC", cursive;
+  font-family: sans-serif;
+}
+.AMheading{
+  margin-top: 2rem;
 }
 .AModalbox {
   height: 50vh;

@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "../cssFiles/About.css";
 import Logo from "../pics/logoEco.png";
 import { Button } from "@mui/material";
+import Mlogin from "./Mlogin";
 
 export default function About() {
+  const [modalIsOpenr, setModalIsOpenr] = useState(false);
+
+  const handleOpenModal3 = () => {
+    setModalIsOpenr(true);
+  };
+
+  const handleCloseModal3 = () => {
+    setModalIsOpenr(false);
+  };
+
   return (
     <>
       <div className="Pcontainer2" id="PAbout">
@@ -18,11 +29,12 @@ export default function About() {
             </a>
           </div>
           <div className="Pnavbtns">
-            <Button>Login</Button>
+            <Button onClick={handleOpenModal3}>Login</Button>
             <Button>Register</Button>
           </div>
         </div>
         <div className="Pbody2">
+          <Mlogin isOpen={modalIsOpenr} onClose={handleCloseModal3} />
           {/* <div className="Pbglogo"> */}
           <img src={Logo} alt="Logo" className="Pbglogo" />
           {/* </div> */}
