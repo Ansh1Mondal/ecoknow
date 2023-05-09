@@ -65,6 +65,7 @@ export default function Contact(props) {
 
         <div className="Rcontactusbox">
           <div className="Rintcontactbox">
+            <h1 className="Rconthead">Connect with Us</h1>
             <div>
               <input
                 type="text"
@@ -94,6 +95,7 @@ export default function Contact(props) {
                 placeholder="Your Message"
                 name="message"
                 className="Rcontmsgbox"
+                rows={8}
               ></textarea>
             </div>
             <div className="send-btn">
