@@ -38,9 +38,11 @@ export default function Home() {
 
           <div className="Pleft">
             <div className="PStext">EcoKnow</div>
+            <br />
             <div className="Ptag">
               <p>CLEAN CITY . GREEN CITY</p>
             </div>
+            <br />
             <button
               className="Pbutton"
               onClick={() => {

@@ -5,6 +5,7 @@ import About from "../src/jsxFiles/About";
 import Contact from "./jsxFiles/Contactus";
 import Transport from "./jsxFiles/Transport";
 import Reduce from "./jsxFiles/Reduce";
+import News from "./jsxFiles/News";
 
 function App() {
   return (
@@ -12,10 +13,10 @@ function App() {
       <Home />
       <About />
       <Waste />
+      <Reduce />
       <Transport />
       <News />
       <Contact />
-      <Reduce />
     </>
   );
 }

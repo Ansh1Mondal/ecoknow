@@ -81,6 +81,15 @@ export default function Waste() {
             any electronic product.{" "}
           </p>
         </div>
+        <div className="ARbtn">
+          <Button
+            onClick={() => {
+              document.getElementById("WasteR").scrollIntoView();
+            }}
+          >
+            E-Waste Reduction Tips
+          </Button>
+        </div>
         <div className="Abody">
           <div className="Asell">
             <div className="Asellbox">
