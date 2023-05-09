@@ -35,3 +35,20 @@
   height: 28rem;
   width: 28rem;
 }
+.Plogo{
+  animation-name: updown;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes updown{
+  0% {margin-top: 10%;}
+  50% {margin-top: 0%;}
+  100% {margin-top: 10%;}
+}
+.Ptag{
+  font-size: 1.8rem;
+  font-family: "Bruno Ace SC", cursive;
+  color: #003c25;
+}
