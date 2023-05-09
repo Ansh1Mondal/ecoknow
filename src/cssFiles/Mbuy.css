@@ -1,14 +1,18 @@
-.Aopt1,.Aopt2{
-    margin-top: 40px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    justify-items: center;
-    align-items: center;
+.Aopt1,
+.Aopt2 {
+  margin-top: 40px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+  align-items: center;
 }
-.Ao1,.Ao2,.Ao3,.Ao4{
-    background-color: rgb(180, 180, 180);
-    height: 12vh;
-    width: 8vw;
-    border-radius: 12px;
+.Ao1,
+.Ao2,
+.Ao3,
+.Ao4 {
+  background-color: rgb(180, 180, 180);
+  height: 12vh;
+  width: 8vw;
+  border-radius: 12px;
 }

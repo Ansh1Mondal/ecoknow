@@ -1,9 +1,6 @@
 import React from "react";
-// import { Box } from "@mui/system";
-// import { Button } from "@mui/material";
+import { Button } from "@mui/material";
 import "../cssFiles/Contactus.css";
-// import TextField from "@mui/material/TextField";
-// import registerbg from "../pics/registerImg.png";
 import emailjs from "emailjs-com";
 
 export default function Contact(props) {
@@ -28,55 +25,43 @@ export default function Contact(props) {
   }
   return (
     <>
-      <div
-        className="main"
-        id="contact"
-        // style={{ backgroundImage: `url(${registerbg})` }}
-      >
-        {/* <div className="contc">
-          <form onSubmit={sendEmail}>
-            <div className="contact-body">
-              <div>
-                <input
-                  type="text"
-                  placeholder="Name"
-                  name="name"
-                  className="cont-boxes"
-                />
-              </div>
-              <div>
-                <input
-                  type="email"
-                  placeholder="Email Address"
-                  name="email"
-                  className="cont-boxes"
-                />
-              </div>
-              <div>
-                <input
-                  type="text"
-                  placeholder="Subject"
-                  name="subject"
-                  className="cont-boxes"
-                />
-              </div>
-              <div>
-                <textarea
-                  placeholder="Your Message"
-                  name="message"
-                  className="cont-boxes"
-                ></textarea>
-              </div>
-              <div className="send-btn">
-                <input
-                  type="submit"
-                  className="btn btn-info"
-                  value="Send Message"
-                />
-              </div>
-            </div>
-          </form>
-        </div> */}
+      <div className="Rcontainer" id="RContact">
+        <div className="Rnavbar">
+          <div className="Rnavimg">
+            <a href="#">
+              <img
+                src={require("../pics/logoEco.png")}
+                alt="ecoknow"
+                className="Rlogo"
+              />
+            </a>
+          </div>
+          <div className="Rnavbtns">
+            <Button
+              onClick={() => {
+                document.getElementById("PAbout").scrollIntoView();
+              }}
+            >
+              About Us
+            </Button>
+            <Button
+              onClick={() => {
+                document.getElementById("AWaste").scrollIntoView();
+              }}
+            >
+              Waste Management
+            </Button>
+
+            <Button
+              onClick={() => {
+                document.getElementById("RTransport").scrollIntoView();
+              }}
+            >
+              Transportation
+            </Button>
+            <Button>Contact Us</Button>
+          </div>
+        </div>
 
         <div className="Rcontactusbox">
           <div className="Rintcontactbox">

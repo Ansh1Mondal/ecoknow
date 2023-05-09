@@ -1,45 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
 
-.Acontainer{
-    background-image: linear-gradient(to top right,#74f6d3,#88BFED,#F5E2D8);
-    /* background-image: linear-gradient(to bottom right,#F5E2D8); */
-    display: grid;
-    grid-template-rows: 20% 80%;
-    text-align: center;
-    height: 100vh;
-}
-
-.Aheading{
-    font-size: 1.5rem;
-    font-family: 'Bruno Ace SC', cursive;
-}
-.Abody{
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    align-items: center;
-    justify-items: center;
-}
-.Asellbtn ,.Abuybtn{
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.241);
-    height: 40vh;
-    width: 20vw;
-    border-radius: 50px;
-    font-size: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    
-}
-.Asellbtn:hover ,.Abuybtn:hover{
-    box-shadow: 0px 0px 10px #2aaa88;
-    cursor: pointer;
+.Acontainer {
+  z-index: 2;
+  background-image: linear-gradient(to top right, #74f6d3, #88bfed, #f5e2d8);
+  display: grid;
+  grid-template-rows: 15% 25% 60%;
+  text-align: center;
+  height: 100vh;
 }
 
-#Auserpic{
-    padding: 2rem;
-    height: 40%;
-    width: 40%;
+.Rnavbar {
+  background: transparent;
+  display: flex;
+  position: sticky;
+  justify-content: space-around;
+  padding-top: 0.5rem;
+}
+
+.Rlogo {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.Rnavbar .Rnavbtns Button {
+  font-size: 1.2rem;
+  margin: 0.5rem 1.3rem;
+  color: rgb(0, 0, 0);
+}
+
+.Aheading {
+  font-size: 1.5rem;
+  font-family: "Bruno Ace SC", cursive;
+}
+.Abody {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  align-items: center;
+  justify-items: center;
+}
+.Asellbtn,
+.Abuybtn {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.241);
+  height: 40vh;
+  width: 20vw;
+  border-radius: 50px;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.Asellbtn:hover,
+.Abuybtn:hover {
+  box-shadow: 0px 0px 10px #2aaa88;
+  cursor: pointer;
+}
+
+#Auserpic {
+  padding: 2rem;
+  height: 40%;
+  width: 40%;
 }

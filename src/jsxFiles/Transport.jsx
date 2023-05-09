@@ -15,7 +15,7 @@ function Transport() {
   });
 
   return (
-    <div className="Rcontainer">
+    <div className="Rcontainer" id="RTransport">
       <div className="Rnavbar">
         <div className="Rnavimg">
           <a href="#">
@@ -27,10 +27,28 @@ function Transport() {
           </a>
         </div>
         <div className="Rnavbtns">
-          <Button>About Us</Button>
-          <Button>Waste Management</Button>
-          <Button>Weather</Button>
+          <Button
+            onClick={() => {
+              document.getElementById("PAbout").scrollIntoView();
+            }}
+          >
+            About Us
+          </Button>
+          <Button
+            onClick={() => {
+              document.getElementById("AWaste").scrollIntoView();
+            }}
+          >
+            Waste Management
+          </Button>
           <Button>Transportation</Button>
+          <Button
+            onClick={() => {
+              document.getElementById("RContact").scrollIntoView();
+            }}
+          >
+            Contact us
+          </Button>
         </div>
       </div>
 
@@ -83,9 +101,7 @@ function Transport() {
           <div className="Rsecondcard">
             <div className="Rcard3">
               <div className="Rpara">Nearby Transportation services</div>
-              {/* <img src="" alt="pic1" /> */}
               <div className="Rapidiv">
-                {/* Map API */}
                 <Map />
               </div>
             </div>
